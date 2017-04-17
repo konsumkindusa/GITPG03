@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AR-CustomObject1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AR-CustomObject1s</value>
+    </caseValues>
+    <fields>
+        <label><!-- AR-CustomField1 --></label>
+        <name>AR_CustomField1__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR-CustomField4 --></label>
+        <name>AR_CustomField4__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR-Custom Field3 --></label>
+        <name>AR_Custom_Field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestARField2 --></label>
+        <name>TestARField2__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestARField --></label>
+        <name>TestARField__c</name>
+    </fields>
+    <layouts>
+        <layout>Demo test layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- TestRecordType --></label>
+        <name>TestRecordType</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
