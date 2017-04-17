@@ -14,20 +14,9 @@
         <relationshipLabel><!-- Business Addresses --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
-        <name>AutorabitExtId__c</name>
-    </fields>
-    <fields>
         <label><!-- Company Owner Name --></label>
         <name>CompanyOwnerName__c</name>
         <relationshipLabel><!-- Business Addresses --></relationshipLabel>
     </fields>
-    <layouts>
-        <layout>Business Address Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

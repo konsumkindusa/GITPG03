@@ -51,12 +51,51 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Delete Me Post Deployment</label>
+    <fields>
+        <fullName>TSP_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>TSP Picklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value01</fullName>
+                    <default>false</default>
+                    <label>Value01</label>
+                </value>
+                <value>
+                    <fullName>Value02</fullName>
+                    <default>false</default>
+                    <label>Value02</label>
+                </value>
+                <value>
+                    <fullName>Value03</fullName>
+                    <default>false</default>
+                    <label>Value03</label>
+                </value>
+                <value>
+                    <fullName>Value04</fullName>
+                    <default>false</default>
+                    <label>Value04</label>
+                </value>
+                <value>
+                    <fullName>Value05</fullName>
+                    <default>false</default>
+                    <label>Value05</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>TSP</label>
     <nameField>
-        <label>Delete Me Post Deployment Name</label>
+        <label>TSP Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Delete Me Post Deployments</pluralLabel>
+    <pluralLabel>TSPs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

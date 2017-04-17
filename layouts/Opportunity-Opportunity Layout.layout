@@ -156,6 +156,9 @@
     </layoutSections>
     <quickActionList>
         <quickActionListItems>
+            <quickActionName>FeedItem.QuestionPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -183,9 +186,6 @@
             <quickActionName>FeedItem.PollPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>FeedItem.QuestionPost</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
             <quickActionName>SendEmail</quickActionName>
         </quickActionListItems>
     </quickActionList>
@@ -203,14 +203,6 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
-    <relatedLists>
-        <fields>CAMPAIGN.NAME</fields>
-        <fields>CONTACT.FULL_NAME</fields>
-        <fields>OCR.ROLE</fields>
-        <fields>CM.RESPONDED</fields>
-        <fields>PRIMARY</fields>
-        <relatedList>RelatedCampaignInfluenceList</relatedList>
-    </relatedLists>
     <relatedLists>
         <fields>Product2</fields>
         <fields>Quantity</fields>
@@ -245,6 +237,15 @@
         <relatedList>RelatedContactRoleList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>CASES.CASE_NUMBER</fields>
+        <fields>CASES.SUBJECT</fields>
+        <fields>CASES.PRIORITY</fields>
+        <fields>CASES.CREATED_DATE</fields>
+        <fields>CASES.STATUS</fields>
+        <fields>OWNER_NAME</fields>
+        <relatedList>RelatedCaseList</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>ACCOUNT.NAME</fields>
         <fields>PARTNER.ROLE</fields>
         <fields>PARTNER.PRIMARY</fields>
@@ -256,6 +257,14 @@
     <relatedLists>
         <relatedList>RelatedOpportunityHistoryList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>CAMPAIGN.NAME</fields>
+        <fields>CONTACT.FULL_NAME</fields>
+        <fields>OCR.ROLE</fields>
+        <fields>CM.RESPONDED</fields>
+        <fields>PRIMARY</fields>
+        <relatedList>RelatedCampaignInfluenceList</relatedList>
+    </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -263,7 +272,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h28000003GcC6</masterLabel>
+        <masterLabel>00h28000003Gc7B</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

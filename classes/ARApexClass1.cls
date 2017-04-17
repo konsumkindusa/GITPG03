@@ -2,7 +2,7 @@ public Class ARApexClass1
 {
 public Account createAccount(String name)  //method to create account
 {
-//Code changes ABB
+//change WingsIT
 //leela comment
 Account acc112 = new Account();
 acc112.Name = name;

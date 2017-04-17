@@ -28,17 +28,6 @@
         <label><!-- TestARField --></label>
         <name>TestARField__c</name>
     </fields>
-    <fields>
-        <label><!-- TestFieldAR --></label>
-        <name>TestFieldAR__c</name>
-    </fields>
-    <layouts>
-        <layout>AR-Layout1</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <layouts>
         <layout>Demo test layout</layout>
         <sections>

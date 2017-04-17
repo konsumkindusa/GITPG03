@@ -9,16 +9,20 @@
         <value>DemoCustomSettings</value>
     </caseValues>
     <fields>
-        <label><!-- DemoTestNum --></label>
-        <name>DemoTestNum__c</name>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
     </fields>
     <fields>
-        <label><!-- TestURL --></label>
-        <name>TestURL__c</name>
+        <label><!-- TestNum --></label>
+        <name>Testing2__c</name>
     </fields>
     <fields>
-        <label><!-- TestingDemo --></label>
-        <name>TestingDemo__c</name>
+        <label><!-- TestingUrl --></label>
+        <name>TestingUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing1 --></label>
+        <name>Testing__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

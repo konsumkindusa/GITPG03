@@ -102,16 +102,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>TestFieldAR__c</fullName>
-        <externalId>false</externalId>
-        <label>TestFieldAR</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <label>AR-CustomObject1</label>
     <nameField>
         <label>AR-CustomObject1 Name</label>

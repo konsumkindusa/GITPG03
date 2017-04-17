@@ -3,6 +3,8 @@
     <types>
         <members>ARApexClass1</members>
         <members>DemoTestAcc</members>
+        <members>TaskUtil</members>
+        <members>TaskUtilTest</members>
         <members>TemperatureConverter</members>
         <members>TemperatureConverterTest</members>
         <members>presh_schedule</members>
@@ -41,7 +43,6 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
-        <members>standard__LightningSales</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
@@ -56,9 +57,7 @@
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
         <members>AR_CustomObject1__c.TestARField2__c</members>
         <members>AR_CustomObject1__c.TestARField__c</members>
-        <members>AR_CustomObject1__c.TestFieldAR__c</members>
         <members>AR_CustomObject_Demo__c.Month__c</members>
-        <members>Account.AR_Custom_Field3_Accounts__c</members>
         <members>Account.Active__c</members>
         <members>Account.AutorabitExtId__c</members>
         <members>Account.CustomerPriority__c</members>
@@ -74,9 +73,7 @@
         <members>Account_Role__c.AutorabitExtId__c</members>
         <members>Account_Role__c.Contact__c</members>
         <members>Account_Role__c.Role__c</members>
-        <members>Activity.AutorabitExtId__c</members>
         <members>Business_Address__c.Account__c</members>
-        <members>Business_Address__c.AutorabitExtId__c</members>
         <members>Business_Address__c.CompanyOwnerName__c</members>
         <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
@@ -86,21 +83,18 @@
         <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
-        <members>Contract.AutorabitExtId__c</members>
         <members>Contract.BusinessAddress__c</members>
-        <members>DemoCustomSettings__c.DemoTestNum__c</members>
-        <members>DemoCustomSettings__c.TestURL__c</members>
-        <members>DemoCustomSettings__c.TestingDemo__c</members>
-        <members>Event__c.Darts__c</members>
+        <members>DemoCustomSettings__c.Test__c</members>
+        <members>DemoCustomSettings__c.Testing2__c</members>
+        <members>DemoCustomSettings__c.TestingUrl__c</members>
+        <members>DemoCustomSettings__c.Testing__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>Lead.AutorabitExtId__c</members>
         <members>Lead.CurrentGenerators__c</members>
-        <members>Lead.DemoCo__c</members>
-        <members>Lead.LeadField__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
-        <members>Lead.TestField__c</members>
         <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
@@ -108,18 +102,15 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
-        <members>OpportunityLineItem.AutorabitExtId__c</members>
-        <members>Pricebook2.AutorabitExtId__c</members>
-        <members>PricebookEntry.AutorabitExtId__c</members>
-        <members>Product2.AutorabitExtId__c</members>
         <members>SoundExchange__c.SoundExchange_CheckBox__c</members>
         <members>SoundExchange__c.SoundExchange_Picklist__c</members>
+        <members>TSP__c.TSP_Picklist__c</members>
+        <members>Test_DataLoader__c.AutorabitExtId__c</members>
         <members>Test_DataLoader__c.testField2__c</members>
-        <members>URL_Management__c.Domain_URL__c</members>
+        <members>Test_DataLoader__c.tf1__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>AR_CustomLabel1</members>
         <members>Endpoint</members>
         <name>CustomLabel</name>
     </types>
@@ -148,14 +139,11 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
-        <members>Delete_Me_Post_Deployment__c</members>
-        <members>Delete_Me_Pre_Deployment__c</members>
         <members>DemoCustomSettings__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
         <members>Event</members>
-        <members>Event__c</members>
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
@@ -180,10 +168,10 @@
         <members>Solution</members>
         <members>SoundExchange__c</members>
         <members>StreamingChannel</members>
+        <members>TSP__c</members>
         <members>Task</members>
         <members>TestObj__c</members>
         <members>Test_DataLoader__c</members>
-        <members>URL_Management__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
@@ -193,14 +181,11 @@
         <members>AR_CustomObject_Demo__c-en_US</members>
         <members>Account_Role__c-en_US</members>
         <members>Business_Address__c-en_US</members>
-        <members>Delete_Me_Post_Deployment__c-en_US</members>
-        <members>Delete_Me_Pre_Deployment__c-en_US</members>
         <members>DemoCustomSettings__c-en_US</members>
-        <members>Event__c-en_US</members>
         <members>SoundExchange__c-en_US</members>
+        <members>TSP__c-en_US</members>
         <members>TestObj__c-en_US</members>
         <members>Test_DataLoader__c-en_US</members>
-        <members>URL_Management__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -218,7 +203,6 @@
     <types>
         <members>Deployment_Validation-1</members>
         <members>OpptMgmt_Process_Builder-1</members>
-        <members>PBTest-1</members>
         <members>Quick_Account-1</members>
         <members>Test_Flow-1</members>
         <members>Test_Process_Builder-2</members>
@@ -230,7 +214,6 @@
     <types>
         <members>Deployment_Validation</members>
         <members>OpptMgmt_Process_Builder</members>
-        <members>PBTest</members>
         <members>Quick_Account</members>
         <members>Test_Flow</members>
         <members>Test_Process_Builder</members>
@@ -249,7 +232,6 @@
     </types>
     <types>
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
-        <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>AR_CustomObject1__c-Demo test layout</members>
         <members>AR_CustomObject_Demo__c-AR-CustomObject-Demo Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
@@ -273,11 +255,8 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
-        <members>Delete_Me_Post_Deployment__c-Delete Me Post Deployment Layout</members>
-        <members>Delete_Me_Pre_Deployment__c-Delete Me Pre Deployment Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>Event-Event Layout</members>
-        <members>Event__c-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
@@ -298,16 +277,17 @@
         <members>Product2-Product Layout</members>
         <members>Solution-Solution Layout</members>
         <members>SoundExchange__c-SoundExchange Layout</members>
+        <members>TSP__c-TSP Layout</members>
         <members>Task-Task Layout</members>
         <members>TestObj__c-TestObj Layout</members>
         <members>User-User Layout</members>
-        <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <name>Layout</name>
     </types>
     <types>
+        <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
@@ -374,10 +354,6 @@
         <members>Contact</members>
         <members>Lead</members>
         <name>MatchingRules</name>
-    </types>
-    <types>
-        <members>Permset</members>
-        <name>PermissionSet</name>
     </types>
     <types>
         <members>AR-Profile1</members>
@@ -455,7 +431,6 @@
     </types>
     <types>
         <members>ApexDevNet</members>
-        <members>IntegrationApp</members>
         <name>RemoteSiteSetting</name>
     </types>
     <types>
@@ -482,10 +457,6 @@
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
         <name>Role</name>
-    </types>
-    <types>
-        <members>Account.Test_Group</members>
-        <name>SharingOwnerRule</name>
     </types>
     <types>
         <members>AccountContactMultiRoles</members>
@@ -548,10 +519,6 @@
         <name>StandardValueSet</name>
     </types>
     <types>
-        <members>Account.Test</members>
-        <name>ValidationRule</name>
-    </types>
-    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
@@ -561,15 +528,6 @@
     <types>
         <members>Contact.Email_alert</members>
         <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Account.Test_Field_Inacive</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>AR_CustomObject1__c.AR-WorkFlow1</members>
-        <members>Account.Test Account WorkFlow</members>
-        <name>WorkflowRule</name>
     </types>
     <types>
         <members>Account</members>

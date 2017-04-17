@@ -1,7 +1,9 @@
 public class TemperatureConverter {
-    // Takes a Fahrenheit temperature and returns the Celsius equivalent.
+    // change 1.
+    // change 2.
+    // change 3.
     public static Decimal FahrenheitToCelsius(Decimal fh) {
-        Decimal cs = (fh - 47) * 5/9;
+        Decimal cs = (fh - 45) * 6/9;
         return cs.setScale(2);
     }
 }

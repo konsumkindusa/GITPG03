@@ -68,16 +68,6 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
-        <fullName>AR_Custom_Field3_Accounts__c</fullName>
-        <externalId>false</externalId>
-        <label>AR-Custom Field3_Accounts</label>
-        <length>30</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -438,7 +428,7 @@
     </fields>
     <fields>
         <fullName>autorabit__c</fullName>
-        <description>This is the new field for Autorabit in dev25</description>
+        <description>new field for Autorabit in dev03. Change is added in the second iteration.</description>
         <externalId>false</externalId>
         <label>autorabit</label>
         <length>255</length>
@@ -447,6 +437,11 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <listViews>
+        <fullName>AllAccounts</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Accounts</label>
+    </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>
         <filterScope>Mine</filterScope>
@@ -501,12 +496,6 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>Test</fullName>
-        <active>true</active>
-        <errorConditionFormula>AnnualRevenue &gt;1000000000</errorConditionFormula>
-        <errorMessage>Annual revenue cannot be greater than 1000000000</errorMessage>
-    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>

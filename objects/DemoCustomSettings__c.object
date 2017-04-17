@@ -3,29 +3,39 @@
     <customSettingsType>Hierarchy</customSettingsType>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>DemoTestNum__c</fullName>
+        <fullName>Test__c</fullName>
         <externalId>false</externalId>
-        <label>DemoTestNum</label>
-        <precision>18</precision>
+        <label>Test</label>
+        <length>10</length>
         <required>false</required>
-        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Testing2__c</fullName>
+        <externalId>false</externalId>
+        <label>TestNum</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TestURL__c</fullName>
+        <fullName>TestingUrl__c</fullName>
         <externalId>false</externalId>
-        <label>TestURL</label>
+        <label>TestingUrl</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Url</type>
     </fields>
     <fields>
-        <fullName>TestingDemo__c</fullName>
+        <fullName>Testing__c</fullName>
         <externalId>false</externalId>
-        <label>TestingDemo</label>
-        <length>20</length>
+        <label>Testing1</label>
+        <length>10</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
