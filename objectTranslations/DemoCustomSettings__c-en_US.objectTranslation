@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DemoCustomSettings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DemoCustomSettings</value>
+    </caseValues>
+    <fields>
+        <label><!-- DemoTestNum --></label>
+        <name>DemoTestNum__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestURL --></label>
+        <name>TestURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestingDemo --></label>
+        <name>TestingDemo__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
