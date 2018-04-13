@@ -400,7 +400,11 @@
         <members>DandBCompany.YearStarted</members>
         <members>DemoCustomSettings__c.DemoTestNum__c</members>
         <members>DemoCustomSettings__c.TestURL__c</members>
+        <members>DemoCustomSettings__c.Test__c</members>
+        <members>DemoCustomSettings__c.Testing2__c</members>
         <members>DemoCustomSettings__c.TestingDemo__c</members>
+        <members>DemoCustomSettings__c.TestingUrl__c</members>
+        <members>DemoCustomSettings__c.Testing__c</members>
         <members>DuplicateRecordItem.DuplicateRecordSetId</members>
         <members>DuplicateRecordItem.RecordId</members>
         <members>DuplicateRecordSet.DuplicateRuleId</members>
@@ -447,6 +451,7 @@
         <members>Idea.Status</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
+        <members>Lead.AutorabitExtId__c</members>
         <members>Lead.CampaignId</members>
         <members>Lead.CleanStatus</members>
         <members>Lead.Company</members>
@@ -706,6 +711,8 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
+        <members>MckTest__c</members>
+        <members>Mckesson__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
