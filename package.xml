@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>41.0</version>
     <types>
         <members>ARApexClass</members>
         <members>ARApexClass1</members>
@@ -99,6 +99,8 @@
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
+        <members>MckTest__c.MckTestPick__c</members>
+        <members>Mckesson__c.Mckesson2pick__c</members>
         <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
@@ -157,6 +159,7 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
+        <members>Mckesson__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -176,6 +179,7 @@
         <members>Task</members>
         <members>TestObj__c</members>
         <members>Test_DataLoader__c</members>
+        <members>Test__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
